@@ -13,7 +13,7 @@ on run {input, parameters}
           tell application "System Events" to keystroke next_char
         end tell
       end tell
-      delay 0.02 + (random number 0.1)
+      delay 0.02 + (random number 0.05)
       
     end repeat
     tell application "Terminal"
