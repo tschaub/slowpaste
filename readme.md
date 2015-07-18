@@ -2,13 +2,15 @@
 
 Paste clipboard contents into Terminal one line at a time.
 
+![demo](https://raw.githubusercontent.com/wiki/tschaub/slowpaste/slowpaste-show.gif)
+
 ## Installation
 
  * Open Automator and create a new Service
  * Choose "Run AppleScript" from the library actions and paste in the SlowPaste.AppleScript source
  * Choose "Service receives no input in Terminal.app"
  * Choose File > Save, and name your Service (e.g. SlowPaste)
- * In System Preferences > Keyboard, add a shortcut for the Service (e.g ^\)
+ * In System Preferences > Keyboard, add a shortcut for the Service (e.g `^\`)
 
 ## Usage
 
